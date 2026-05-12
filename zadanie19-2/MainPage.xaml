@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=netstandard"
+             x:Class="zadanie19_2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+  
+
+            <Picker x:Name="Wybor" Title="Wybor">
+                <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Internista</x:String>
+                    <x:String>Kardiolog</x:String>
+                    <x:String>Dermatolog</x:String>
+                    <x:String>Okulista</x:String>
+                </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <DatePicker
+                x:Name="datePicker"
+                Format="dd.MM.yyyy"
+                 MinimumDate="12/05/2026" 
+                 
+                />
+
+            <TimePicker
+                x:Name="timePicker"
+                Format="HH:mm" 
+            />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Zarezerwuj"       
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

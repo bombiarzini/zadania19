@@ -1,0 +1,12 @@
+Dokumentacja 19.2
+
+/*
+
+
+
+nazwa funkcji: OnCounterClicked
+opis funkcji: podczas klikniecia w przycisk sprawdza czy wybraliśmy jakąkolwiek opcje 
+parametry: object sender eventargs e
+zwracany typ i opis: 
+autor: Kacper Wandzak
+*/
