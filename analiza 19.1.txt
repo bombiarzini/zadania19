@@ -1,0 +1,8 @@
+analiza 19.1
+
+1 jest uzyty ponieważ jest do wyświetlania obiektow zlozonych
+2 oznacza to ze nic nie jest wybrane, może się to zdarzyć przy inicjalizacji programu
+3 maja ten sam groupname ponieważ wybor jednego wpływa na wybor drugiego
+4 value przechowuje to co wybraliśmy/nacisnelismy a content to po prostu tekst który się wyswietla obok
+5 efekt jest taki ze wyswietla nam dni od teraz w przyszlosc, i nie wybieramy dat z przeszlosci
+6 ponieważ stepper domyślnie zmienia wartość na 1
